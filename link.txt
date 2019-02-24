@@ -1,0 +1,12 @@
+ https://courses.nativescripting.com/courses/nativescript-with-angular-getting-started-guide/lectures/6887491
+ 
+ Login Via Github
+ https://play.nativescript.org/profile/projects
+ https://www.azoft.com/blog/nativescript-development/
+ 
+ https://www.nativescript.org/app-samples-with-code
+ https://market.nativescript.org/
+ https://market.nativescript.org/?tab=templates&category=all_templates
+ https://market.nativescript.org/?tab=samples&framework=all_frameworks&category=all_samples&_ga=2.47260143.950651268.1551020059-37556572.1551020059
+ 
+ https://github.com/NativeScript/NativeScript
