@@ -1,0 +1,409 @@
+Your environment has been set up for using Node.js 8.11.2 (x64) and npm.
+
+C:\Users\Pritam>npm install nativescript@next -g
+npm WARN notice [SECURITY] open has the following vulnerability: 1 critical. Go here for more details: https://nodesecurity.io/advisories?search=open&version=0.0.5 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] debug has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=debug&version=0.7.4 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] lodash has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=lodash&version=4.17.4 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] node-uuid has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=node-uuid&version=1.3.3 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] lodash has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=lodash&version=3.2.0 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] lodash has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=lodash&version=4.3.0 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] lodash has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=lodash&version=4.3.0 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] growl has the following vulnerability: 1 critical. Go here for more details: https://nodesecurity.io/advisories?search=growl&version=1.9.2 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] lodash has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=lodash&version=3.6.0 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+C:\Users\Pritam\AppData\Roaming\npm\nativescript -> C:\Users\Pritam\AppData\Roaming\npm\node_modules\nativescript\bin\tns
+C:\Users\Pritam\AppData\Roaming\npm\tns -> C:\Users\Pritam\AppData\Roaming\npm\node_modules\nativescript\bin\tns
+
+> nativescript@5.2.0-2018-12-14-12741 postinstall C:\Users\Pritam\AppData\Roaming\npm\node_modules\nativescript
+> node postinstall.js
+
+Do you want to help us improve NativeScript by automatically sending anonymous usage statistics? We will not use this information to identify or contact you. You can read our official Privacy Policy at
+? http://www.telerik.com/company/privacy-policy Yes
+If you are using bash or zsh, you can enable command-line completion.
+? Do you want to enable it now? Yes
+Restart your shell to enable command auto-completion.
+
+Installation successful. You are good to go. Connect with us on http://twitter.com/NativeScript.
+
+You can review the Progress Software Privacy Policy at https://www.progress.com/legal/privacy-policy
+
+I agree to receive email communications from Progress Software or its Partners (https://www.progress.com/partners/partner-directory),containing information about Progress Software's products. Consent may be withdrawn at any time.
+
+? Input your e-mail address to agree or leave empty to decline:
+You have successfully installed the NativeScript CLI!
+To create a new project, you use:
+tns create <app name>
+
+To build your project locally you use:
+tns build <platform>
+
+NOTE: Local builds require additional setup of your environment. You can find more information here: https://docs.nativescript.org/start/quick-setup
+
+
+To build your project in the cloud you can use:
+tns cloud build <platform>
+
+NOTE: Cloud builds require Telerik account. You can find more information here: https://docs.nativescript.org/sidekick/intro/requirements
+
+
+If you want to experiment with NativeScript in your browser, try the Playground: https://play.nativescript.org
+
+
+If you have any questions, check Stack Overflow: https://stackoverflow.com/questions/tagged/nativescript and our public Slack channel: https://nativescriptcommunity.slack.com/
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\nativescript\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ nativescript@5.2.0-2018-12-14-12741
+added 912 packages in 300.319s
+
+C:\Users\Pritam>E:
+
+E:\>cd E:\Code\Java\Nativescript
+
+E:\Code\Java\Nativescript>tns create MyApp
+
+# Let’s create a NativeScript app!
+
+Answer the following questions to help us build the right app for you. (Note: you
+can skip this prompt next time using the --template option, or the --ng, --vue, --ts,
+or --js flags.)
+
+? First, which style of NativeScript project would you like to use: Angular
+
+? Next, which template would you like to start from: SideDrawer
+
+> node-sass@4.11.0 install E:\Code\Java\Nativescript\MyApp\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.11.0/win32-x64-57_binding.node
+Download complete  ] - :
+Binary saved to E:\Code\Java\Nativescript\MyApp\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Caching binary to C:\Users\Pritam\AppData\Roaming\npm-cache\node-sass\4.11.0\win32-x64-57_binding.node
+
+> node-sass@4.11.0 postinstall E:\Code\Java\Nativescript\MyApp\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at E:\Code\Java\Nativescript\MyApp\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Testing binary
+Binary is fine
+
+> nativescript-angular@7.1.0 postinstall E:\Code\Java\Nativescript\MyApp\node_modules\nativescript-angular
+> node postinstall.js
+
+
+> nativescript-dev-sass@1.6.0 postinstall E:\Code\Java\Nativescript\MyApp\node_modules\nativescript-dev-sass
+> node postinstall.js
+
+
+> nativescript-dev-typescript@0.7.8 postinstall E:\Code\Java\Nativescript\MyApp\node_modules\nativescript-dev-typescript
+> node postinstall.js
+
+Adding 'es6' lib to tsconfig.json...
+Adding 'dom' lib to tsconfig.json...
+Adding 'es2015.iterable' lib to tsconfig.json...
+Adding tns-core-modules path mappings lib to tsconfig.json...
+
+> nativescript-dev-webpack@0.18.5 postinstall E:\Code\Java\Nativescript\MyApp\node_modules\nativescript-dev-webpack
+> node postinstall.js
+
+Creating file: E:\Code\Java\Nativescript\MyApp\webpack.config.js
+Creating file: E:\Code\Java\Nativescript\MyApp\tsconfig.tns.json
+Adding dev dependency: @angular/compiler-cli@~7.1.0
+Adding dev dependency: @ngtools/webpack@~7.1.0
+
+NativeScript Webpack plugin was successfully added.
+You can now bundle your project by passing --bundle flag to NativeScript CLI commands:
+    - tns build android --bundle
+    - tns build ios --bundle
+    - tns run android --bundle
+    - tns run ios --bundle
+You can also pass the "--env.uglify" flag to use UglifyJS for minification.
+For more information check out https://docs.nativescript.org/tooling/bundling-with-webpack#bundling.
+
+A few new dependencies were added. Run "npm install" before building your project.
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 769 packages in 200.214s
+Executing after-createProject hook from E:\Code\Java\Nativescript\MyApp\hooks\after-createProject\after-createProject.js
+
+Project MyApp was successfully created.
+
+Now you can navigate to your project with $ cd MyApp
+
+After that you can preview it on device by executing $ tns preview
+
+
+E:\Code\Java\Nativescript>tns platform add android
+No project found at or above 'E:\Code\Java\Nativescript' and neither was a --path specified.
+# tns platform add
+
+### Description
+
+Configures the current project to target the selected platform.
+
+### Commands
+
+┌──────────────────────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Usage                    │ Synopsis                                                                                                                                        │
+│ Android latest runtime   │ $ tns platform add android [--framework-path <File Path>] [--symlink] [--sdk <API Level>] [--platform-template <Platform Template>]             │
+│ Android selected runtime │ $ tns platform add android[@<Version>] [--framework-path <File Path>] [--symlink] [--sdk <API Level>] [--platform-template <Platform Template>] │
+└──────────────────────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+### Options
+
+    * --framework-path - Sets the path to a NativeScript runtime for the specified platform that you want to use instead of the default runtime. If --symlink is specified, <File Path> is the complete path to a valid npm package or a directory that contains a NativeScript runtime for the selected platform and must point to directory in which the runtime is already extracted. If --symlink is not specified, <File Path> must point to a valid npm package.
+    * --symlink - Creates a symlink to a NativeScript runtime for the specified platform that you want to use instead of the default runtime. If --frameworkPath is specified, creates a symlink to the specified directory. If --frameworkPath is not specified, creates a symlink to platform runtime installed with your current version of NativeScript.
+    * --sdk - Sets the target Android SDK for the project. <API Level> is a valid Android API level. For example: 17, 19, MNC.
+    * --platform-template - Sets the platform template that will be used for the native application. <Platform Template> is a valid npm package, path to directory, .tgz or GitHub URL that contains a native Android or iOS template.
+
+### Arguments
+
+    * <Version> is any available version of the respective platform runtime published in npm.
+
+
+E:\Code\Java\Nativescript>cd MyApp
+
+E:\Code\Java\Nativescript\MyApp>tns device
+
+Connected devices & emulators
+Searching for devices...
+iTunes is not installed. Install it on your system and run this command again.
+Cannot find connected devices. Reconnect any connected devices, verify that your system recognizes them, and run this command again.
+
+E:\Code\Java\Nativescript\MyApp>tns platform add android
+Copying template files...
+Platform android successfully added. v5.1.0
+
+E:\Code\Java\Nativescript\MyApp>tns prepare android
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 69 packages in 16.172s
+Executing before-shouldPrepare hook from E:\Code\Java\Nativescript\MyApp\hooks\before-shouldPrepare\nativescript-dev-webpack.js
+Executing before-cleanApp hook from E:\Code\Java\Nativescript\MyApp\hooks\before-cleanApp\nativescript-dev-webpack.js
+Executing before-prepare hook from E:\Code\Java\Nativescript\MyApp\hooks\before-prepare\nativescript-dev-sass.js
+Found peer node-sass
+Executing before-prepare hook from E:\Code\Java\Nativescript\MyApp\hooks\before-prepare\nativescript-dev-typescript.js
+Found peer TypeScript 3.1.6
+Preparing project...
+Executing before-prepareJSApp hook from E:\Code\Java\Nativescript\MyApp\hooks\before-prepareJSApp\nativescript-dev-webpack.js
+Successfully prepared plugin nativescript-angular for android.
+Successfully prepared plugin nativescript-theme-core for android.
+Successfully prepared plugin nativescript-ui-sidedrawer for android.
+Successfully prepared plugin tns-core-modules for android.
+Successfully prepared plugin nativescript-intl for android.
+Successfully prepared plugin nativescript-ui-core for android.
+Successfully prepared plugin tns-core-modules-widgets for android.
+Project successfully prepared (android)
+Executing after-prepare hook from E:\Code\Java\Nativescript\MyApp\hooks\after-prepare\nativescript-dev-sass.js
+All SASS source files removed from app package
+Executing after-prepare hook from E:\Code\Java\Nativescript\MyApp\hooks\after-prepare\nativescript-dev-webpack.js
+
+E:\Code\Java\Nativescript\MyApp>
+
+
+
+Your environment has been set up for using Node.js 8.11.2 (x64) and npm.
+
+C:\Users\Pritam>E:
+
+E:\>Cd E:\Code\Java\Nativescript\MyApp
+
+E:\Code\Java\Nativescript\MyApp>tns build android
+Executing before-shouldPrepare hook from E:\Code\Java\Nativescript\MyApp\hooks\before-shouldPrepare\nativescript-dev-webpack.js
+Skipping prepare.
+Building project...
+Gradle build...
+Downloading https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................<-------------> 0% CONFIGURING [27s]....................................................................................
+........................................................................................................................> root project > Resolve dependencies of :classpath
+................................................................................................................................................................................................................................................> root project > Resolve dependencies of :classpath.....................................................................
+........................................................................................................................................................................................................................................................................................................................................................................<-------------> 0% CONFIGURING [27s]....................................................................................
+> root project > Resolve dependencies of :classpath.....................................................................
+> root project > Resolve dependencies of :classpath.....................................................................
+........................................................................................................................<-------------> 0% CONFIGURING [24s]....................................................................................
+........................................................................................................................> root project > Resolve dependencies of :classpath.....................................................................
+................................................................................................................................................................................................................................................> root project > Resolve dependencies of :classpath.....................................................................
+................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................> root project > Resolve dependencies of :classpath.....................................................................
+<-------------> 0% CONFIGURING [27s]....................................................................................
+> root project > Resolve dependencies of :classpath.....................................................................
+> root project > Resolve dependencies of :classpath.....................................................................
+........................................................................................................................> root project > Resolve dependencies of :classpath.....................................................................
+........................................................................................................................<-------------> 0% CONFIGURING [27s]....................................................................................
+........................................................................................................................> root project > Resolve dependencies of :classpath.....................................................................
+> root project > Resolve dependencies of :classpath.....................................................................
+........................................................................................................................> root project > Resolve dependencies of :classpath
+..................................................................................
+> IDLE
+> root project > Resolve dependencies of :classpath > databinding-common-3.2.1.pom.sha1
+The message received from the daemon indicates that the daemon has disappeared.
+Build request sent: Build{id=1e8641cf-b1e6-4b57-ba7a-c0ae158fedf9, currentDir=E:\Code\Java\Nativescript\MyApp\platforms\android}
+Attempting to read last messages from the daemon log...
+Daemon pid: 1072
+  log file: C:\Users\Pritam\.gradle\daemon\4.10.2\daemon-1072.out.log
+----- Last  20 lines from daemon log file - daemon-1072.out.log -----
+13:47:08.406 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting JVM memory status event {Maximum: 15271460864, Committed: 2554855424}
+13:47:13.408 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting OS memory status event {Total: 12813426688, Free: 5038178304}docs.gradle.org/4.10.2/release-notes.html
+13:47:13.408 [DEBUG] [org.gradle.launcher.daemon.server.health.LowMemoryDaemonExpirationStrategy] Received memory status update: {Total: 12813426688, Free: 5038178304}path
+13:47:13.408 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting JVM memory status event {Maximum: 15271460864, Committed: 2554855424} of :classpath
+13:47:17.091 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+13:47:17.091 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+13:47:17.091 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+13:47:17.092 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:47:17.093 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+13:47:17.094 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+13:47:17.094 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:47:17.095 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+13:47:17.095 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+13:47:17.096 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+13:47:18.408 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting OS memory status event {Total: 12813426688, Free: 5018460160}
+13:47:18.408 [DEBUG] [org.gradle.launcher.daemon.server.health.LowMemoryDaemonExpirationStrategy] Received memory status update: {Total: 12813426688, Free: 5018460160}
+13:47:18.408 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting JVM memory status event {Maximum: 15271460864, Committed: 2554855424}
+13:47:23.409 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting OS memory status event {Total: 12813426688, Free: 5053718528}
+13:47:23.409 [DEBUG] [org.gradle.launcher.daemon.server.health.LowMemoryDaemonExpirationStrategy] Received memory status update: {Total: 12813426688, Free: 5053718528}
+13:47:23.409 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting JVM memory status event {Maximum: 15271460864, Committed: 2554855424}
+----- End of the daemon log -----
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not dispatch a message to the daemon.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+Command gradlew.bat failed with exit code 1
+
+E:\Code\Java\Nativescript\MyApp>tns prepare android
+Executing before-shouldPrepare hook from E:\Code\Java\Nativescript\MyApp\hooks\before-shouldPrepare\nativescript-dev-webpack.js
+Skipping prepare.
+
+E:\Code\Java\Nativescript\MyApp>tns prepare android
+Executing before-shouldPrepare hook from E:\Code\Java\Nativescript\MyApp\hooks\before-shouldPrepare\nativescript-dev-webpack.js
+Skipping prepare.
+
+E:\Code\Java\Nativescript\MyApp>tns build android
+Executing before-shouldPrepare hook from E:\Code\Java\Nativescript\MyApp\hooks\before-shouldPrepare\nativescript-dev-webpack.js
+Skipping prepare.
+Building project...
+Gradle build...
+         + setting applicationId
+         + applying user-defined configuration from E:\Code\Java\Nativescript\MyApp\App_Resources\Android\app.gradle
+Using support library version 28.0.0
+         + adding nativescript runtime package dependency: nativescript-optimized-with-inspector
+         + adding aar plugin dependency: E:\Code\Java\Nativescript\MyApp\node_modules\nativescript-ui-sidedrawer\platforms\android\TNSSideDrawer-release.aar
+         + adding aar plugin dependency: E:\Code\Java\Nativescript\MyApp\node_modules\nativescript-ui-core\platforms\android\TNSCore-release.aar
+         + adding aar plugin dependency: E:\Code\Java\Nativescript\MyApp\node_modules\tns-core-modules-widgets\platforms\android\widgets-release.aar
+Project successfully built.
+The build result is located at: E:\Code\Java\Nativescript\MyApp\platforms\android\app\build\outputs\apk\debug\app-debug.apk
+
+E:\Code\Java\Nativescript\MyApp>
+
+
+E:\Code\Java\Nativescript\MyApp>tns debug android --chrome
+Searching for devices...
+Executing before-liveSync hook from E:\Code\Java\Nativescript\MyApp\hooks\before-liveSync\nativescript-angular-sync.js
+Executing before-watchPatterns hook from E:\Code\Java\Nativescript\MyApp\hooks\before-watchPatterns\nativescript-dev-sass.js
+Executing before-watchPatterns hook from E:\Code\Java\Nativescript\MyApp\hooks\before-watchPatterns\nativescript-dev-typescript.js
+Executing before-watchPatterns hook from E:\Code\Java\Nativescript\MyApp\hooks\before-watchPatterns\nativescript-dev-webpack.js
+Executing before-watch hook from E:\Code\Java\Nativescript\MyApp\hooks\before-watch\nativescript-dev-sass.js
+Found peer node-sass
+Executing before-watch hook from E:\Code\Java\Nativescript\MyApp\hooks\before-watch\nativescript-dev-typescript.js
+Found peer TypeScript 3.1.6
+Executing before-watch hook from E:\Code\Java\Nativescript\MyApp\hooks\before-watch\nativescript-dev-webpack.js
+Executing before-shouldPrepare hook from E:\Code\Java\Nativescript\MyApp\hooks\before-shouldPrepare\nativescript-dev-webpack.js
+Skipping prepare.
+Installing on device 61aac19a...
+Successfully installed on device with identifier '61aac19a'.
+Refreshing application on device 61aac19a...
+JS: Angular is running in the development mode. Call enableProdMode() to enable the production mode.
+01-05 14:06:26.049 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethodNative(int, int, java.lang.String, int, boolean, java.lang.Object[]) (Runtime.java:-2)
+01-05 14:06:26.049 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.dispatchCallJSMethodNative(int, java.lang.String, boolean, long, java.lang.Class, java.lang.Object[]) (Runtime.java:1120)
+01-05 14:06:26.049 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethodImpl(java.lang.Object, java.lang.String, java.lang.Class, boolean, long, java.lang.Object[]) (Runtime.java:1000)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, boolean, long, java.lang.Object[]) (Runtime.java:987)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, boolean, java.lang.Object[]) (Runtime.java:967)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, java.lang.Object[]) (Runtime.java:959)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethodNative(int, int, java.lang.String, int, boolean, java.lang.Object[]) (Runtime.java:-2)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.dispatchCallJSMethodNative(int, java.lang.String, boolean, long, java.lang.Class, java.lang.Object[]) (Runtime.java:1120)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethodImpl(java.lang.Object, java.lang.String, java.lang.Class, boolean, long, java.lang.Object[]) (Runtime.java:1000)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, boolean, long, java.lang.Object[]) (Runtime.java:987)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, boolean, java.lang.Object[]) (Runtime.java:967)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, java.lang.Object[]) (Runtime.java:959)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethodNative(int, int, java.lang.String, int, boolean, java.lang.Object[]) (Runtime.java:-2)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.dispatchCallJSMethodNative(int, java.lang.String, boolean, long, java.lang.Class, java.lang.Object[]) (Runtime.java:1120)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethodImpl(java.lang.Object, java.lang.String, java.lang.Class, boolean, long, java.lang.Object[]) (Runtime.java:1000)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, boolean, long, java.lang.Object[]) (Runtime.java:987)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, boolean, java.lang.Object[]) (Runtime.java:967)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, java.lang.Object[]) (Runtime.java:959)
+01-05 14:06:26.050 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethodNative(int, int, java.lang.String, int, boolean, java.lang.Object[]) (Runtime.java:-2)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.dispatchCallJSMethodNative(int, java.lang.String, boolean, long, java.lang.Class, java.lang.Object[]) (Runtime.java:1120)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethodImpl(java.lang.Object, java.lang.String, java.lang.Class, boolean, long, java.lang.Object[]) (Runtime.java:1000)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, boolean, long, java.lang.Object[]) (Runtime.java:987)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, boolean, java.lang.Object[]) (Runtime.java:967)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, java.lang.Object[]) (Runtime.java:959)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethodNative(int, int, java.lang.String, int, boolean, java.lang.Object[]) (Runtime.java:-2)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.dispatchCallJSMethodNative(int, java.lang.String, boolean, long, java.lang.Class, java.lang.Object[]) (Runtime.java:1120)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethodImpl(java.lang.Object, java.lang.String, java.lang.Class, boolean, long, java.lang.Object[]) (Runtime.java:1000)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, boolean, long, java.lang.Object[]) (Runtime.java:987)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, boolean, java.lang.Object[]) (Runtime.java:967)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, java.lang.Object[]) (Runtime.java:959)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethodNative(int, int, java.lang.String, int, boolean, java.lang.Object[]) (Runtime.java:-2)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.dispatchCallJSMethodNative(int, java.lang.String, boolean, long, java.lang.Class, java.lang.Object[]) (Runtime.java:1120)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethodImpl(java.lang.Object, java.lang.String, java.lang.Class, boolean, long, java.lang.Object[]) (Runtime.java:1000)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, boolean, long, java.lang.Object[]) (Runtime.java:987)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, boolean, java.lang.Object[]) (Runtime.java:967)
+01-05 14:06:26.051 18765 18765 I zygote  :   at java.lang.Object com.tns.Runtime.callJSMethod(java.lang.Object, java.lang.String, java.lang.Class, java.lang.Object[]) (Runtime.java:959)
+device: 61aac19a debug port: 40000
+
+To start debugging, open the following URL in Chrome:
+chrome-devtools://devtools/bundled/inspector.html?experiments=true&ws=localhost:40000
+
+Successfully synced application org.nativescript.MyApp on device 61aac19a.
+Executing after-watch hook from E:\Code\Java\Nativescript\MyApp\hooks\after-watch\nativescript-dev-sass.js
+Executing after-watch hook from E:\Code\Java\Nativescript\MyApp\hooks\after-watch\nativescript-dev-typescript.js
+Stopping tsc watch
+Executing after-watch hook from E:\Code\Java\Nativescript\MyApp\hooks\after-watch\nativescript-dev-webpack.js
+Stopping webpack watch
+Executing after-watch hook from E:\Code\Java\Nativescript\MyApp\hooks\after-watch\nativescript-dev-sass.js
+Executing after-watch hook from E:\Code\Java\Nativescript\MyApp\hooks\after-watch\nativescript-dev-typescript.js
+Executing after-watch hook from E:\Code\Java\Nativescript\MyApp\hooks\after-watch\nativescript-dev-webpack.js
+Stopping webpack watch
+Terminate batch job (Y/N)? y
+
+
+
+
+E:\Code\Java\Nativescript\MyApp>tns platform add ios
+Applications for platform ios can not be built on this OS
+# tns platform add
+
+### Description
+
+Configures the current project to target the selected platform.
+
+### Commands
+
+┌──────────────────────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Usage                    │ Synopsis                                                                                                                                        │
+│ Android latest runtime   │ $ tns platform add android [--framework-path <File Path>] [--symlink] [--sdk <API Level>] [--platform-template <Platform Template>]             │
+│ Android selected runtime │ $ tns platform add android[@<Version>] [--framework-path <File Path>] [--symlink] [--sdk <API Level>] [--platform-template <Platform Template>] │
+└──────────────────────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+### Options
+
+    * --framework-path - Sets the path to a NativeScript runtime for the specified platform that you want to use instead of the default runtime. If --symlink is specified, <File Path> is the complete path to a valid npm package or a directory that contains a NativeScript runtime for the selected platform and must point to directory in which the runtime is already extracted. If --symlink is not specified, <File Path> must point to a valid npm package.
+    * --symlink - Creates a symlink to a NativeScript runtime for the specified platform that you want to use instead of the default runtime. If --frameworkPath is specified, creates a symlink to the specified directory. If --frameworkPath is not specified, creates a symlink to platform runtime installed with your current version of NativeScript.
+    * --sdk - Sets the target Android SDK for the project. <API Level> is a valid Android API level. For example: 17, 19, MNC.
+    * --platform-template - Sets the platform template that will be used for the native application. <Platform Template> is a valid npm package, path to directory, .tgz or GitHub URL that contains a native Android or iOS template.
+
+### Arguments
+
+    * <Version> is any available version of the respective platform runtime published in npm.
+
+
+E:\Code\Java\Nativescript\MyApp>
